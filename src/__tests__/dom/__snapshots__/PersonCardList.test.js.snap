@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonCardList should match the snapshot with conditions: has dataList props is at least one length 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PersonCardList
+    dataList={
+        Array [
+            Object {
+              "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+              "first_name": "George",
+              "id": 1,
+              "last_name": "Bluth",
+            },
+            Object {
+              "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+              "first_name": "Janet",
+              "id": 2,
+              "last_name": "Weaver",
+            },
+            Object {
+              "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+              "first_name": "Emma",
+              "id": 3,
+              "last_name": "Wong",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <PersonCard
+          firstName="George"
+          id={1}
+          imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+          lastName="Bluth"
+/>,
+        <PersonCard
+          firstName="Janet"
+          id={2}
+          imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+          lastName="Weaver"
+/>,
+        <PersonCard
+          firstName="Emma"
+          id={3}
+          imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
+          lastName="Wong"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "firstName": "George",
+          "id": 1,
+          "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+          "lastName": "Bluth",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "firstName": "Janet",
+          "id": 2,
+          "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+          "lastName": "Weaver",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "firstName": "Emma",
+          "id": 3,
+          "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+          "lastName": "Wong",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <PersonCard
+            firstName="George"
+            id={1}
+            imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+            lastName="Bluth"
+/>,
+          <PersonCard
+            firstName="Janet"
+            id={2}
+            imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+            lastName="Weaver"
+/>,
+          <PersonCard
+            firstName="Emma"
+            id={3}
+            imageUrl="https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
+            lastName="Wong"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "firstName": "George",
+            "id": 1,
+            "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+            "lastName": "Bluth",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "firstName": "Janet",
+            "id": 2,
+            "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+            "lastName": "Weaver",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "firstName": "Emma",
+            "id": 3,
+            "imageUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+            "lastName": "Wong",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`PersonCardList should match the snapshot with conditions: has dataList props is zero length 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PersonCardList
+    dataList={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`PersonCardList should match the snapshot with conditions: has no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PersonCardList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
